@@ -2,6 +2,30 @@ html {
     background: #EBE3DA
 }
 
+.light {
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    opacity: 0.2;
+    font-size: 3vw;
+    top: 10%;
+    padding-left: 5vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    z-index: 1000; 
+    position: absolute;
+    visibility:hidden;
+}
+
+.lightbeams:hover .light{
+    visibility:visible;
+}
+
 .lightbeams {
     width: 658.1px;
     height: 299.29px;
@@ -77,6 +101,7 @@ html {
     text-align: center;
     font-size: 10vw;
     max-width: 734px;
+    filter: blur(2px);
 }
 
 .shadows {
@@ -95,6 +120,7 @@ html {
 
 a {
     display: inline-block;
+    text-decoration: none;
 }
 
 .reflect {
@@ -138,10 +164,28 @@ a {
     right: 0;
     bottom: 0;
     margin: 5vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 .glow:hover {
     box-shadow: 0px 0px 20px 30px #ffee00;
+}
+
+.glowtext {
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    opacity: 0.2;
+    font-size: 3vw;
+    text-align: center;
+    visibility: hidden;
+}
+
+.glow:hover .glowtext {
+    visibility: visible;
 }
 
 @keyframes glow {
