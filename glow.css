@@ -67,6 +67,9 @@ ul {
     margin: 0px;
     padding: 0px;
     color: #FFF8D4;
+    background: linear-gradient(0deg, rgba(255,248,212,1) 0%, rgba(255,255,255,0.01) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .home {
@@ -99,3 +102,45 @@ ul {
 		box-shadow: 0 0 0 40 rgba(255, 255, 255, 0);
 	}
 }
+
+[class*="popup-"] {
+    color: #FFF8D4;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    display: none;
+    z-index: 9;
+    font-size: 18px;
+  }
+  
+  [class*="popup-"].active {
+    display: flex;
+  }
+
+  .popup-1 {
+    opacity: 0.14;
+  }
+  .popup-2 {
+    opacity: 0.28;
+  }
+  .popup-3 {
+    opacity: 0.42;
+  }
+  .popup-4 {
+    opacity: 0.56;
+  }
+  .popup-5 {
+    opacity: 0.70;
+  }
+  .popup-6 {
+    opacity: 0.84;
+  }
+  .popup-7 {
+    opacity: 0.98;
+  }
+  .popup-8 {
+    opacity: 1;
+  }

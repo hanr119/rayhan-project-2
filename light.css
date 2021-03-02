@@ -109,3 +109,102 @@ ul {
 		box-shadow: 0 0 0 40 rgba(255, 255, 255, 0);
 	}
 }
+
+[class*="popup-"] {
+    color: #000000;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    display: none;
+    z-index: 9;
+    font-size: 18px;
+  }
+  
+  [class*="popup-"].active {
+    display: flex;
+  }
+
+  .popup-1 {
+    opacity: 0.1;
+  }
+  .popup-2 {
+    opacity: 0.14;
+  }
+  .popup-3 {
+    opacity: 0.17;
+  }
+  .popup-4 {
+    opacity: 0.21;
+  }
+  .popup-5 {
+    opacity: 0.24;
+  }
+  .popup-6 {
+    opacity: 0.28;
+  }
+  .popup-7 {
+    opacity: 0.31;
+  }
+  .popup-8 {
+    opacity: 0.35;
+  }
+  .popup-9 {
+    opacity: 0.38;
+  }
+  .popup-10 {
+    opacity: 0.42;
+  }
+  .popup-11 {
+    opacity: 0.45;
+  }
+  .popup-12 {
+    opacity: 0.49;
+  }
+  .popup-13 {
+    opacity: 0.52;
+  }
+  .popup-14 {
+    opacity: 0.56;
+  }
+  .popup-15 {
+    opacity: 0.59;
+  }
+  .popup-16 {
+    opacity: 0.63;
+  }
+  .popup-17 {
+    opacity: 0.66;
+  }
+  .popup-18 {
+    opacity: 0.70;
+  }
+  .popup-19 {
+    opacity: 0.73;
+  }
+  .popup-20 {
+    opacity: 0.77;
+  }
+  .popup-21 {
+    opacity: 0.80;
+  }
+  .popup-22 {
+    opacity: 0.84;
+  }
+  .popup-23 {
+    opacity: 0.87;
+  }
+  .popup-24 {
+    opacity: 0.91;
+  }
+  .popup-25 {
+    opacity: 0.94;
+  }
+  .popup-26 {
+    opacity: 0.98;
+  }
+  .popup-27 {
+    opacity: 1;
+  }
