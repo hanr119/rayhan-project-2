@@ -4,13 +4,13 @@ html {
 
 .light {
     font-family: Helvetica;
-    font-style: italic;
+    font-style: normal;
     font-weight: normal;
     color: black;
     opacity: 0.2;
     font-size: 3vw;
-    top: 10%;
-    padding-left: 5vw;
+    top: -5vh;
+    padding-left: 10vh;
     left: 0;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@ html {
     width: 500px;
     height: 300px;
     z-index: 1000; 
-    position: absolute;
+    position: fixed;
     visibility:hidden;
 }
 
@@ -32,7 +32,7 @@ html {
     margin: 0;
     padding: 0;
     position: relative;
-    top: -100px;
+    top: -170px;
     left: -115px;
 }
 
@@ -175,7 +175,7 @@ a {
 
 .glowtext {
     font-family: Helvetica;
-    font-style: italic;
+    font-style: normal;
     font-weight: normal;
     color: black;
     opacity: 0.2;
