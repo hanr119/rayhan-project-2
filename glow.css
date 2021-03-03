@@ -18,10 +18,7 @@ body {
     padding: 0;
     width: 25vw;
     filter: invert(1);
-    stroke:#fff;
-    fill:#fff;
-    fill-opacity:0;
-    stroke-opacity:0;
+    fill: none;
 }
 
 .lightbeam {
@@ -32,9 +29,7 @@ body {
     padding: 0;
     width: 25vw;
     stroke:#fff;
-    fill:#fff;
-    fill-opacity:0;
-    stroke-opacity:0;
+    fill:none;
 }
 
 .glow {
