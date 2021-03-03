@@ -12,21 +12,29 @@ body {
 
 .shadowbeam {
     position: absolute;
-    top: -1em;
-    right: -0.2em;
+    top: 0em;
+    right: -0.1em;
     margin: 0;
     padding: 0;
     width: 25vw;
     filter: invert(1);
+    stroke:#fff;
+    fill:#fff;
+    fill-opacity:0;
+    stroke-opacity:0;
 }
 
 .lightbeam {
     position: absolute;
-    top: 0px;
+    top: -1em;
     right: 0px;
     margin: 0;
     padding: 0;
     width: 25vw;
+    stroke:#fff;
+    fill:#fff;
+    fill-opacity:0;
+    stroke-opacity:0;
 }
 
 .glow {
